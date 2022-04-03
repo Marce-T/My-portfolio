@@ -92,6 +92,40 @@ header{
     color: black;
 }
 
+/*  TYPING CONTAINER */
+.typingContainer{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.typingContainer p {
+    font-size: 3rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.typingContainer p span.typed-text {
+    font-weight: normal;
+    color: fuchsia;
+}
+
+.typingContainer p span.cursor.typing {
+    animation: none;
+}
+
+
+@keyframes blink {
+    0% {background-color: ghostwhite;}
+    49% {background-color: ghostwhite;}
+    50% {background-color: #ccc;}
+    99% {background-color: ghostwhite;}
+    100% {background-color: ghostwhite;}
+}
 
 
 
